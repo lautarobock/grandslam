@@ -12,8 +12,11 @@
 //    assert.equal("Hola","Hola");
 //};
 
+var game = require('../public/js/game.js');
+
 //Nodeunit
 exports.testClient = function(test) {
+    var gameController = new game.GameController(); 
     test.expect(1);
     test.ok(true,"Test pasado")
     test.done();
