@@ -1,4 +1,4 @@
 grandslam
 =========
 
-Application to count points in gambling
+Application to count points in gambling.
